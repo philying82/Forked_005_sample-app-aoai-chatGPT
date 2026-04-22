@@ -1,5 +1,10 @@
 @echo off
 
+REM Activate conda environment (replace 'myenv' with your env name)
+call conda activate sampleaoai
+
+REM Install backend packages
+
 echo.
 echo Restoring backend python packages
 echo.
